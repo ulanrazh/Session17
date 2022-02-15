@@ -16,7 +16,7 @@ public class Triangle extends Shape{
 
     @Override
     void getArea() {
-        float area = width * height;
+        float area = (width * height)/2;
         System.out.println("Area of Triangle: " + area);
     }
 
