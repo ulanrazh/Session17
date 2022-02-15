@@ -4,12 +4,15 @@ public class Triangle extends Shape{
     private float width;
     private float height;
 
+    public Triangle() {
+    }
+
     public Triangle(int numSides) {
         super(numSides);
     }
 
-    public Triangle(int numSides, float width, float height) {
-        super(numSides);
+    public Triangle(float width, float height) {
+        super(3);
         this.width = width;
         this.height = height;
     }
